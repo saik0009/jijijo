@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="product-container">
+    <div class="product-image">
+      <img src="product-image.jpg" alt="Product Image">
+    </div>
+    <div class="product-info">
+      <h1>Awesome Product Name</h1>
+      <p class="description">
+        This is a super cool product that does amazing things. 
+        It has a lot of great features and will improve your life!
+      </p>
+      <p class="price">$199.99</p>
+      <button id="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
